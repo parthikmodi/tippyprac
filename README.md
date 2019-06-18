@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+```ruby
+test_1 = Tippy::Builder.new(total: 100, gratuity: '23.5').generate #123.5
+```
 
 ## Development
 
